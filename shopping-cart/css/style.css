@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 192, 203, 0.725),
+    rgba(0, 0, 255, 0.549)
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+tr,
+th,
+td {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}

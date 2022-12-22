@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>cart</title>
+  </head>
+  <body>
+    <h1>Shopping Cart List</h1>
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Unit Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+      <tr class="row">
+        <td>product 1</td>
+        <td>100</td>
+        <td class="quantityOne">0</td>
+        <td id="totalOne">0</td>
+        <td><button onclick="addQuantity(event)">add</button></td>
+        <td><button onclick="reduceQuantity(event)">minus</button></td>
+        <td><button onclick="deleteProduct(event)">remove</button></td>
+      </tr>
+      <tr class="row">
+        <td>product 2</td>
+        <td>300</td>
+        <td class="quantityOne">0</td>
+        <td id="totalOne">0</td>
+        <td><button onclick="addQuantity(event)">add</button></td>
+        <td><button onclick="reduceQuantity(event)">minus</button></td>
+        <td><button onclick="deleteProduct(event)">remove</button></td>
+      </tr>
+      <tr class="row">
+        <td>product 3</td>
+        <td>50</td>
+        <td class="quantityOne">0</td>
+        <td id="totalOne">0</td>
+        <td><button onclick="addQuantity(event)">add</button></td>
+        <td><button onclick="reduceQuantity(event)">minus</button></td>
+        <td><button onclick="deleteProduct(event)">remove</button></td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>...</td>
+      </tr>
+    </table>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
